@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colorful Brazilian</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./denise-avatar.png" alt="Photo of Denise with a gold necklace and a laptop in her hand" />
+        <p>Denise Phillips</p>
+      </div>
+
+      <div id="switch">
+        <button onclick="toggleMode()" onclick="moveButton()"></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a
+            href="https://www.colorfulbrazilian.com/about"
+            target="_blank"
+            >Who is Colorful Brazilian?</a>
+        </li>
+        <li>
+          <a
+            href="https://www.colorfulbrazilian.com/services"
+            target="_blank"
+            >My Services</a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJp9DarAFny70bAD--kQ4GwEB9bZ4mxpinGJA94SJD3upIdQ/viewform?pli=1" target="_blank"
+            >Get a Project Proposal</a>
+        </li>
+        <li>
+          <a id="meuEmail" onclick="buttonEmail()">Contact me by email</a>
+          <input type="text" id="texto" value="info@colorfulbrazilian.com" readonly/>
+        </li>
+        <li>
+          <a href="tel:1240204-4886" target="_blank"
+            >Contact me by phone</a> <!-- testar no telefone -->
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://www.instagram.com/cborganizedit?igsh=bTlvam1jZDBvMzNl" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://youtube.com/@cborganizedit?feature=shared" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://www.tiktok.com/@colorfulbrazilian?_t=8lZzeD9b7ut&_r=1" target="_blank">
+          <ion-icon name="logo-tiktok"></ion-icon>
+        </a>
+        <a href="https://wa.me/message/MXH2O6VQ3BI6I1" target="_blank">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/denisephps?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#" id="shareMobile">
+          <ion-icon name="arrow-redo-outline"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Created by <a href="https://www.linkedin.com/in/rodrigo-cardoso-y/" target="_blank">Rodrigo Cardoso</a>
+      </footer>
+    </div>
+
+    <!-- script dos icones usados -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
