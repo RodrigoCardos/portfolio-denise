@@ -41,7 +41,7 @@ function buttonEmail() {
   function enviarEmail() {
     
     // Direciona para mandar e-mail já que o usuário está no celular
-    document.getElementById('meuEmail').setAttribute('href', 'mailto:gustavcardoso1@gmail.com');
+    document.getElementById('meuEmail').setAttribute('href', 'mailto:info@colorfulbrazilian.com');
   }
 
   // Alternar o botão do e-mail no mobile
